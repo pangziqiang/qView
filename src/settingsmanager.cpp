@@ -57,7 +57,7 @@ static const SettingDefinition settingDefinitions[] = {
     { SettingsManager::Setting::SaveRecents, true, "saverecents" },
     { SettingsManager::Setting::UpdateNotifications, false, "updatenotifications" },
     { SettingsManager::Setting::SkipHidden, true, "skiphidden" },
-    { SettingsManager::Setting::ShowNavigationButtons, false, "shownavigationbuttons" }
+    { SettingsManager::Setting::ShowNavigationButtons, true, "shownavigationbuttons" }
 };
 
 // settingKeys is a file-static variable, it doesn't need to be a member
